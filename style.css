@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background: #002233;
+    font-family: "Montserrat variant0", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    line-height: normal;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    }
+
+.spacer {
+    aspect-ratio: 960/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wave1 {
+    background-image: url(wave1.svg);
+}
