@@ -84,14 +84,16 @@ footer {
 a {
     color: inherit;
     text-decoration: inherit;
+    transition: 0.3s;
 }
 
-a:hover {
-    text-opacity: 1;
+.main1:hover {
+    color: #0066ff;
+}
+
+.social-link:hover {
     color: #002233;
 }
-
-
 
 .sr-only {
     opacity: 0;
