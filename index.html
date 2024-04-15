@@ -11,11 +11,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
+    <script src="script.js" defer=""></script>
 </head>
 
 <body>
+
     <header>
+
+        <li class="theme-switch">
+            <svg id="theme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="17" height="17"
+                class="icons-style mini-icons">
+                <title>Theme</title>
+                // moon
+
+                <g id="dark">
+                    <path
+                        d="M14.994,7.99a7,7,0,0,1-12.813,3.9,1,1,0,0,1,1.063-1.532,6.139,6.139,0,0,0,1.961.089,6.012,6.012,0,0,0,5.212-4.985,6.067,6.067,0,0,0-.065-2.274A1,1,0,0,1,11.9,2.182,6.985,6.985,0,0,1,14.994,7.99Z"
+                        stroke="#002233">
+                        // sun
+                </g>
+                <g id="light">
+                    <circle cx="8.5" cy="8.5" r="3" stroke="#f3f2f9" />
+                    <line x1="8.5" y1="1" x2="8.5" y2="2" stroke="#f3f2f9" />
+                    <line x1="13.803" y1="3.197" x2="13.096" y2="3.904" stroke="#f3f2f9" />
+                    <line x1="16" y1="8.5" x2="15" y2="8.5" stroke="#f3f2f9" />
+                    <line x1="13.803" y1="13.803" x2="13.096" y2="13.096" stroke="#f3f2f9" />
+                    <line x1="8.5" y1="16" x2="8.5" y2="15" stroke="#f3f2f9" />
+                    <line x1="3.197" y1="13.803" x2="3.904" y2="13.096" stroke="#f3f2f9" />
+                    <line x1="1" y1="8.5" x2="2" y2="8.5" stroke="#f3f2f9" />
+                    <line x1="3.197" y1="3.197" x2="3.904" y2="3.904" stroke="#f3f2f9" />
+                </g>
+            </svg>
+        </li>
     </header>
     <nav>
     </nav>
@@ -32,26 +59,26 @@
     <footer>
         <div class="links">
             <ul class="socmed" aria-label="Social Media">
-                <li class="social1"><a class="social-link" href="https://github.com/zandro-racho" target="_blank" rel="noreferrer noopener"
-                        aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="sr-only">GitHub</span><svg
-                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                            class="social-icon" aria-hidden="true">
+                <li class="social1"><a class="social-link" href="https://github.com/zandro-racho" target="_blank"
+                        rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span
+                            class="sr-only">GitHub</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                            fill="currentColor" class="social-icon" aria-hidden="true">
                             <path
                                 d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
                             </path>
                         </svg></a>
                 </li>
-                <li class="social"><a class="social-link" href="https://www.linkedin.com/in/chrizandro-racho-7b0350241/" target="_blank"
-                        rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn"><span
-                            class="sr-only">LinkedIn</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                            fill="currentColor" class="social-icon" aria-hidden="true">
+                <li class="social"><a class="social-link" href="https://www.linkedin.com/in/chrizandro-racho-7b0350241/"
+                        target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)"
+                        title="LinkedIn"><span class="sr-only">LinkedIn</span><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" fill="currentColor" class="social-icon" aria-hidden="true">
                             <path
                                 d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
                             </path>
                         </svg></a>
                 </li>
-                <li class="social"><a class="social-link" href="https://codepen.io/zandro-racho" target="_blank" rel="noreferrer noopener"
-                        aria-label="CodePen (opens in a new tab)" title="CodePen"><span
+                <li class="social"><a class="social-link" href="https://codepen.io/zandro-racho" target="_blank"
+                        rel="noreferrer noopener" aria-label="CodePen (opens in a new tab)" title="CodePen"><span
                             class="sr-only">CodePen</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="social-icon" aria-hidden="true">
@@ -103,6 +130,7 @@
         </svg>
         <div class="blue"></div>
     </footer>
+
 </body>
 
 </html>
