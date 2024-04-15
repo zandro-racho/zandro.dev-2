@@ -12,7 +12,6 @@ html {
 }
 
 .blue {
-    height: 6vh;
     background-color: #0066ff;
     position: relative;
     margin-top: -5px;
@@ -307,8 +306,8 @@ h4 {
     }
 }
 
-/* xl */
-@media (min-width: 1280px) and (max-device-width: 1280px) {
+/* xl */  
+@media (min-width: 1280px) {
     .blue {
         height: 3vh;
     }
