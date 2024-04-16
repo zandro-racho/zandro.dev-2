@@ -15,7 +15,7 @@ html {
     background-color: #0066ff;
     position: relative;
     margin-top: -5px;
-    z-index: -1;
+    z-index: 0;
 }
 
 
@@ -48,6 +48,7 @@ header {
 
 .theme-switch {
     cursor: pointer;
+    z-index: 99;
 }
 
 .icons-style {
@@ -77,6 +78,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 999;
+}
+
+.main1 {
+    z-index: 999;
 }
 
 h1 {
@@ -84,6 +90,7 @@ h1 {
     margin-bottom: 0;
     margin: 0;
     transition: color 0.2s ease;
+    z-index: 999;
 }
 
 h3 {
@@ -110,7 +117,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .socmed {
@@ -119,6 +126,7 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    z-index: 0;
 }
 
 
@@ -169,6 +177,10 @@ h4 {
     margin-top: 3%;
     position: relative;
     z-index: 3;
+}
+
+.wave {
+    z-index: 0;
 }
 
 /* The mobile-first pre-defined media queries: */
@@ -309,7 +321,7 @@ h4 {
     }
 }
 
-/* xl */  
+/* xl */
 @media (min-width: 1280px) {
     .blue {
         height: 3vh;
@@ -318,5 +330,108 @@ h4 {
     .social-icon {
         height: 2.4rem;
         width: 2.4rem;
+    }
+}
+
+.noise {
+    position: fixed;
+    z-index: 3;
+    top: -300%;
+    left: -150%;
+    height: 600%;
+    width: 600%;
+    -webkit-animation: grain 7s steps(10) infinite;
+    animation: grain 7s steps(10) infinite;
+    background-image: url(noise.png);
+    background-size: 200px;
+    background-repeat: repeat;
+    opacity: .25;
+}
+
+@-webkit-keyframes grain {
+
+    0%,
+    to {
+        transform: translate(0)
+    }
+
+    10% {
+        transform: translate(-5%, -10%)
+    }
+
+    20% {
+        transform: translate(-15%, 5%)
+    }
+
+    30% {
+        transform: translate(7%, -25%)
+    }
+
+    40% {
+        transform: translate(-5%, 25%)
+    }
+
+    50% {
+        transform: translate(-15%, 10%)
+    }
+
+    60% {
+        transform: translate(15%)
+    }
+
+    70% {
+        transform: translateY(15%)
+    }
+
+    80% {
+        transform: translate(3%, 35%)
+    }
+
+    90% {
+        transform: translate(-10%, 10%)
+    }
+}
+
+@keyframes grain {
+
+    0%,
+    to {
+        transform: translate(0)
+    }
+
+    10% {
+        transform: translate(-5%, -10%)
+    }
+
+    20% {
+        transform: translate(-15%, 5%)
+    }
+
+    30% {
+        transform: translate(7%, -25%)
+    }
+
+    40% {
+        transform: translate(-5%, 25%)
+    }
+
+    50% {
+        transform: translate(-15%, 10%)
+    }
+
+    60% {
+        transform: translate(15%)
+    }
+
+    70% {
+        transform: translateY(15%)
+    }
+
+    80% {
+        transform: translate(3%, 35%)
+    }
+
+    90% {
+        transform: translate(-10%, 10%)
     }
 }
