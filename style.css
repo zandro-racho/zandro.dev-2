@@ -83,11 +83,13 @@ h1 {
     font-size: 8vw;
     margin-bottom: 0;
     margin: 0;
+    transition: color 0.2s ease;
 }
 
 h3 {
     font-size: 2vw;
     margin-top: 0;
+    transition: color 0.2s ease;
 }
 
 body {
@@ -100,6 +102,7 @@ body {
     font-weight: 300;
     font-style: normal;
     color: #f3f2f9;
+    transition: background-color 0.2s ease;
 }
 
 footer {
