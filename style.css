@@ -78,7 +78,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 2;
 }
 
 .main1 {
@@ -116,7 +116,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 0;
+    z-index: 2;
 }
 
 .socmed {
@@ -125,7 +125,8 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    z-index: 0;
+    z-index: 2;
+    opacity: 0.9;
 }
 
 
@@ -176,6 +177,7 @@ h4 {
     margin-top: 3%;
     position: relative;
     z-index: 3;
+    opacity: 0.75;
     color: #f3f2f9;
 }
 
@@ -335,7 +337,7 @@ h4 {
 
 .noise {
     position: fixed;
-    z-index: 3;
+    z-index: 1;
     top: -300%;
     left: -150%;
     height: 600%;
