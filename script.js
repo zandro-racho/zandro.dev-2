@@ -16,7 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
       lightElement.style.transform = "translateY(17px)";
       document.body.style.background = white;
       h1Element.style.color = darkBlue;
+      h1Element.style.opacity = "0.75";
       h3Element.style.color = darkBlue;
+      h3Element.style.opacity = "0.75";
       h1Element.addEventListener("mouseenter", function () {
         h1Element.style.color = lightBlue;
       });
@@ -28,7 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
       lightElement.style.transform = "none";
       document.body.style.background = darkBlue;
       h1Element.style.color = white;
+      h1Element.style.opacity = "0.75";
       h3Element.style.color = white;
+      h3Element.style.opacity = "0.75";
       h1Element.addEventListener("mouseenter", function () {
         h1Element.style.color = lightBlue;
       });
