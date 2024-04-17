@@ -101,14 +101,14 @@ h3 {
 
 body {
     margin: 0;
-    background: #002233;
+    background: #f3f2f9;
     font-family: 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
     line-height: normal;
     font-weight: 300;
     font-style: normal;
-    color: #f3f2f9;
+    color: #002233;
     transition: background-color 0.2s ease;
 }
 
