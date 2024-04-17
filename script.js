@@ -12,18 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function applyTransformation() {
     if (transformed) {
-      darkElement.style.transform = "translateY(17px)";
-      lightElement.style.transform = "none";
-      document.body.style.background = darkBlue;
-      h1Element.style.color = white;
-      h3Element.style.color = white;
-      h1Element.addEventListener("mouseenter", function () {
-        h1Element.style.color = lightBlue;
-      });
-      h1Element.addEventListener("mouseleave", function () {
-        h1Element.style.color = white;
-      });
-    } else {
       darkElement.style.transform = "none";
       lightElement.style.transform = "translateY(17px)";
       document.body.style.background = white;
@@ -34,6 +22,18 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       h1Element.addEventListener("mouseleave", function () {
         h1Element.style.color = darkBlue;
+      });
+    } else {
+      darkElement.style.transform = "translateY(17px)";
+      lightElement.style.transform = "none";
+      document.body.style.background = darkBlue;
+      h1Element.style.color = white;
+      h3Element.style.color = white;
+      h1Element.addEventListener("mouseenter", function () {
+        h1Element.style.color = lightBlue;
+      });
+      h1Element.addEventListener("mouseleave", function () {
+        h1Element.style.color = white;
       });
     }
   }
