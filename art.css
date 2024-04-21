@@ -21,7 +21,7 @@ header {
 }
 
 .svg-icon {
-    fill: #000000;
+    fill: #002233;
     transition: fill 0.3s ease;
     size: 3em;
 }
@@ -39,6 +39,7 @@ header {
     font-style: normal;
     margin-top: 0;
     margin-bottom: 3em;
+    color: #002233;
 }
 
 .pic {
@@ -67,7 +68,7 @@ header {
     /* Adjust as needed to position the text */
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #002233;
     color: #fff;
     padding: 5px 10px;
     opacity: 0;
