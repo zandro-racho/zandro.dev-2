@@ -12,7 +12,6 @@ body {
     padding: 0;
     margin: 0;
     min-width: 752px;
-    max-width: 1300px;
 }
 
 header {
@@ -101,7 +100,7 @@ main {
     row-gap: 6%;
     column-gap: 6%;
     margin-top: 10px;
-    margin-bottom: 15em;
+    margin-bottom: 10em;
 }
 
 .noise {
@@ -211,7 +210,7 @@ footer {
     width: 100%;
     padding: 0;
     z-index: 1;
-    margin-top: 10em;
+    margin-top: 15em;
 }
 
 .links {
